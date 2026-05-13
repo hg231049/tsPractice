@@ -5,7 +5,7 @@ let strArr:string[] = ["hello",'im','dles'];
 
 // 제네릭 문법 : Array<타입>
 let boolArr:Array<boolean> = [true,false,true];
-//  배열에 들어가는 요소들이 다양할 경우
+//  유니온 문법 : 배열에 들어가는 요소들이 다양할 경우
 let mutiArr: (number|string)[] = [1,"hello"];
 // 다차원 배열의 타입을 정의하는 방법
 let doubleArr : number[][] = [
